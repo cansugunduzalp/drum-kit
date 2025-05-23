@@ -1,0 +1,33 @@
+body {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 50px;
+  }
+  
+  .drum-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .drum {
+    font-size: 30px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #444;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s;
+  }
+  
+  .drum:active,
+  .drum.pressed {
+    background-color: #ff4081;
+    box-shadow: 0 5px 15px #ff4081;
+    transform: scale(1.1);
+  }
+  
